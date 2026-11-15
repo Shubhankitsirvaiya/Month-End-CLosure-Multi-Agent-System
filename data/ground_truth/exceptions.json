@@ -1,0 +1,543 @@
+[
+  {
+    "exception_id": "POS-MR-EQ-INDIA-EQ003",
+    "portfolio_id": "MR-EQ-INDIA",
+    "close_period": "2026-10-31",
+    "category": "position_break",
+    "severity": "high",
+    "title": "Position quantity mismatch for EQ003",
+    "instrument_id": "EQ003",
+    "expected_agents": [
+      "reconciliation"
+    ],
+    "required_policy_ids": [
+      "REC-001",
+      "MAT-001"
+    ],
+    "approval_required": true,
+    "expected_resolution": "investigate_custody_or_settlement",
+    "expected_materiality_bps": 0.0
+  },
+  {
+    "exception_id": "POS-MR-EQ-GLOBAL-EQ008",
+    "portfolio_id": "MR-EQ-GLOBAL",
+    "close_period": "2026-10-31",
+    "category": "position_break",
+    "severity": "medium",
+    "title": "Position quantity mismatch for EQ008",
+    "instrument_id": "EQ008",
+    "expected_agents": [
+      "reconciliation"
+    ],
+    "required_policy_ids": [
+      "REC-001",
+      "MAT-001"
+    ],
+    "approval_required": false,
+    "expected_resolution": "investigate_custody_or_settlement",
+    "expected_materiality_bps": 0.0
+  },
+  {
+    "exception_id": "POS-MR-CREDIT-IG-BD006",
+    "portfolio_id": "MR-CREDIT-IG",
+    "close_period": "2026-10-31",
+    "category": "position_break",
+    "severity": "high",
+    "title": "Position quantity mismatch for BD006",
+    "instrument_id": "BD006",
+    "expected_agents": [
+      "reconciliation"
+    ],
+    "required_policy_ids": [
+      "REC-001",
+      "MAT-001"
+    ],
+    "approval_required": true,
+    "expected_resolution": "investigate_custody_or_settlement",
+    "expected_materiality_bps": 0.0
+  },
+  {
+    "exception_id": "POS-MISSING-MR-BOND-GOV-BD004",
+    "portfolio_id": "MR-BOND-GOV",
+    "close_period": "2026-10-31",
+    "category": "missing_custodian_position",
+    "severity": "high",
+    "title": "Internal position BD004 missing from custodian record",
+    "instrument_id": "BD004",
+    "expected_agents": [
+      "reconciliation",
+      "risk_policy"
+    ],
+    "required_policy_ids": [
+      "REC-001",
+      "MAT-001"
+    ],
+    "approval_required": true,
+    "expected_resolution": "confirm_settlement_or_correct_position",
+    "expected_materiality_bps": 0.0
+  },
+  {
+    "exception_id": "POS-MISSING-MR-INCOME-MC-BD011",
+    "portfolio_id": "MR-INCOME-MC",
+    "close_period": "2026-10-31",
+    "category": "missing_custodian_position",
+    "severity": "high",
+    "title": "Internal position BD011 missing from custodian record",
+    "instrument_id": "BD011",
+    "expected_agents": [
+      "reconciliation",
+      "risk_policy"
+    ],
+    "required_policy_ids": [
+      "REC-001",
+      "MAT-001"
+    ],
+    "approval_required": true,
+    "expected_resolution": "confirm_settlement_or_correct_position",
+    "expected_materiality_bps": 0.0
+  },
+  {
+    "exception_id": "CASH-MR-BALANCED-USD",
+    "portfolio_id": "MR-BALANCED",
+    "close_period": "2026-10-31",
+    "category": "cash_break",
+    "severity": "high",
+    "title": "Cash difference in USD",
+    "instrument_id": null,
+    "expected_agents": [
+      "reconciliation",
+      "accounting"
+    ],
+    "required_policy_ids": [
+      "REC-001",
+      "MAT-001"
+    ],
+    "approval_required": true,
+    "expected_resolution": "identify_timing_or_missing_cash_entry",
+    "expected_materiality_bps": 0.0
+  },
+  {
+    "exception_id": "CASH-MR-INCOME-MC-EUR",
+    "portfolio_id": "MR-INCOME-MC",
+    "close_period": "2026-10-31",
+    "category": "cash_break",
+    "severity": "medium",
+    "title": "Cash difference in EUR",
+    "instrument_id": null,
+    "expected_agents": [
+      "reconciliation",
+      "accounting"
+    ],
+    "required_policy_ids": [
+      "REC-001",
+      "MAT-001"
+    ],
+    "approval_required": false,
+    "expected_resolution": "identify_timing_or_missing_cash_entry",
+    "expected_materiality_bps": 0.0
+  },
+  {
+    "exception_id": "CASH-MR-EQ-GLOBAL-USD",
+    "portfolio_id": "MR-EQ-GLOBAL",
+    "close_period": "2026-10-31",
+    "category": "cash_break",
+    "severity": "medium",
+    "title": "Cash difference in USD",
+    "instrument_id": null,
+    "expected_agents": [
+      "reconciliation",
+      "accounting"
+    ],
+    "required_policy_ids": [
+      "REC-001",
+      "MAT-001"
+    ],
+    "approval_required": false,
+    "expected_resolution": "identify_timing_or_missing_cash_entry",
+    "expected_materiality_bps": 0.0
+  },
+  {
+    "exception_id": "VAL-STALE-MR-CREDIT-HY-BD009",
+    "portfolio_id": "MR-CREDIT-HY",
+    "close_period": "2026-10-31",
+    "category": "stale_price",
+    "severity": "high",
+    "title": "Price for BD009 is 5 days old",
+    "instrument_id": "BD009",
+    "expected_agents": [
+      "valuation",
+      "risk_policy",
+      "evidence_critic"
+    ],
+    "required_policy_ids": [
+      "VAL-001",
+      "MAT-001",
+      "SRC-001"
+    ],
+    "approval_required": true,
+    "expected_resolution": "obtain_approved_alternative_price",
+    "expected_materiality_bps": 18.2
+  },
+  {
+    "exception_id": "VAL-STALE-MR-BOND-GOV-BD003",
+    "portfolio_id": "MR-BOND-GOV",
+    "close_period": "2026-10-31",
+    "category": "stale_price",
+    "severity": "high",
+    "title": "Price for BD003 is 4 days old",
+    "instrument_id": "BD003",
+    "expected_agents": [
+      "valuation",
+      "risk_policy",
+      "evidence_critic"
+    ],
+    "required_policy_ids": [
+      "VAL-001",
+      "MAT-001",
+      "SRC-001"
+    ],
+    "approval_required": true,
+    "expected_resolution": "obtain_approved_alternative_price",
+    "expected_materiality_bps": 11.4
+  },
+  {
+    "exception_id": "VAL-STALE-MR-INCOME-MC-BD011",
+    "portfolio_id": "MR-INCOME-MC",
+    "close_period": "2026-10-31",
+    "category": "stale_price",
+    "severity": "medium",
+    "title": "Price for BD011 is 3 days old",
+    "instrument_id": "BD011",
+    "expected_agents": [
+      "valuation",
+      "risk_policy",
+      "evidence_critic"
+    ],
+    "required_policy_ids": [
+      "VAL-001",
+      "MAT-001",
+      "SRC-001"
+    ],
+    "approval_required": false,
+    "expected_resolution": "obtain_approved_alternative_price",
+    "expected_materiality_bps": 9.2
+  },
+  {
+    "exception_id": "VAL-CONFLICT-MR-CREDIT-HY-BD010",
+    "portfolio_id": "MR-CREDIT-HY",
+    "close_period": "2026-10-31",
+    "category": "price_conflict",
+    "severity": "high",
+    "title": "Independent price sources disagree for BD010",
+    "instrument_id": "BD010",
+    "expected_agents": [
+      "valuation",
+      "risk_policy",
+      "evidence_critic"
+    ],
+    "required_policy_ids": [
+      "VAL-001",
+      "SRC-001",
+      "MAT-001"
+    ],
+    "approval_required": true,
+    "expected_resolution": "price_challenge_and_human_review",
+    "expected_materiality_bps": 24.8
+  },
+  {
+    "exception_id": "VAL-CONFLICT-MR-CREDIT-IG-BD013",
+    "portfolio_id": "MR-CREDIT-IG",
+    "close_period": "2026-10-31",
+    "category": "price_conflict",
+    "severity": "high",
+    "title": "Independent price sources disagree for BD013",
+    "instrument_id": "BD013",
+    "expected_agents": [
+      "valuation",
+      "risk_policy",
+      "evidence_critic"
+    ],
+    "required_policy_ids": [
+      "VAL-001",
+      "SRC-001",
+      "MAT-001"
+    ],
+    "approval_required": true,
+    "expected_resolution": "price_challenge_and_human_review",
+    "expected_materiality_bps": 13.1
+  },
+  {
+    "exception_id": "VAL-CONFLICT-MR-BALANCED-EQ013",
+    "portfolio_id": "MR-BALANCED",
+    "close_period": "2026-10-31",
+    "category": "price_conflict",
+    "severity": "medium",
+    "title": "Independent price sources disagree for EQ013",
+    "instrument_id": "EQ013",
+    "expected_agents": [
+      "valuation",
+      "risk_policy",
+      "evidence_critic"
+    ],
+    "required_policy_ids": [
+      "VAL-001",
+      "SRC-001",
+      "MAT-001"
+    ],
+    "approval_required": false,
+    "expected_resolution": "price_challenge_and_human_review",
+    "expected_materiality_bps": 7.5
+  },
+  {
+    "exception_id": "TX-DUP-MR-EQ-GLOBAL-EQ006",
+    "portfolio_id": "MR-EQ-GLOBAL",
+    "close_period": "2026-10-31",
+    "category": "duplicate_transaction",
+    "severity": "high",
+    "title": "Potential duplicate transaction for EQ006",
+    "instrument_id": "EQ006",
+    "expected_agents": [
+      "reconciliation",
+      "accounting",
+      "evidence_critic"
+    ],
+    "required_policy_ids": [
+      "REC-001",
+      "JRN-001"
+    ],
+    "approval_required": true,
+    "expected_resolution": "reverse_or_remove_duplicate_after_review",
+    "expected_materiality_bps": 0.0
+  },
+  {
+    "exception_id": "TX-DUP-MR-BALANCED-EQ006",
+    "portfolio_id": "MR-BALANCED",
+    "close_period": "2026-10-31",
+    "category": "duplicate_transaction",
+    "severity": "high",
+    "title": "Potential duplicate transaction for EQ006",
+    "instrument_id": "EQ006",
+    "expected_agents": [
+      "reconciliation",
+      "accounting",
+      "evidence_critic"
+    ],
+    "required_policy_ids": [
+      "REC-001",
+      "JRN-001"
+    ],
+    "approval_required": true,
+    "expected_resolution": "reverse_or_remove_duplicate_after_review",
+    "expected_materiality_bps": 0.0
+  },
+  {
+    "exception_id": "FEE-MR-BALANCED-management_fee",
+    "portfolio_id": "MR-BALANCED",
+    "close_period": "2026-10-31",
+    "category": "fee_accrual_break",
+    "severity": "high",
+    "title": "Booked management_fee does not match expected accrual",
+    "instrument_id": null,
+    "expected_agents": [
+      "accounting",
+      "risk_policy",
+      "evidence_critic"
+    ],
+    "required_policy_ids": [
+      "FEE-001",
+      "JRN-001",
+      "MAT-001"
+    ],
+    "approval_required": true,
+    "expected_resolution": "prepare_adjusting_journal",
+    "expected_materiality_bps": 0.0
+  },
+  {
+    "exception_id": "FEE-MR-ESG-administration_fee",
+    "portfolio_id": "MR-ESG",
+    "close_period": "2026-10-31",
+    "category": "fee_accrual_break",
+    "severity": "medium",
+    "title": "Booked administration_fee does not match expected accrual",
+    "instrument_id": null,
+    "expected_agents": [
+      "accounting",
+      "risk_policy",
+      "evidence_critic"
+    ],
+    "required_policy_ids": [
+      "FEE-001",
+      "JRN-001",
+      "MAT-001"
+    ],
+    "approval_required": false,
+    "expected_resolution": "prepare_adjusting_journal",
+    "expected_materiality_bps": 0.0
+  },
+  {
+    "exception_id": "FEE-MR-CREDIT-IG-custody_fee",
+    "portfolio_id": "MR-CREDIT-IG",
+    "close_period": "2026-10-31",
+    "category": "fee_accrual_break",
+    "severity": "medium",
+    "title": "Booked custody_fee does not match expected accrual",
+    "instrument_id": null,
+    "expected_agents": [
+      "accounting",
+      "risk_policy",
+      "evidence_critic"
+    ],
+    "required_policy_ids": [
+      "FEE-001",
+      "JRN-001",
+      "MAT-001"
+    ],
+    "approval_required": false,
+    "expected_resolution": "prepare_adjusting_journal",
+    "expected_materiality_bps": 0.0
+  },
+  {
+    "exception_id": "CA-MISSING-MR-EQ-INDIA-EQ005",
+    "portfolio_id": "MR-EQ-INDIA",
+    "close_period": "2026-10-31",
+    "category": "missing_income",
+    "severity": "high",
+    "title": "Dividend income was not booked",
+    "instrument_id": "EQ005",
+    "expected_agents": [
+      "accounting",
+      "reconciliation"
+    ],
+    "required_policy_ids": [
+      "CA-001",
+      "JRN-001"
+    ],
+    "approval_required": true,
+    "expected_resolution": "book_dividend_receivable",
+    "expected_materiality_bps": 0.0
+  },
+  {
+    "exception_id": "CA-COUPON-MR-INCOME-MC-BD002",
+    "portfolio_id": "MR-INCOME-MC",
+    "close_period": "2026-10-31",
+    "category": "coupon_accrual_break",
+    "severity": "medium",
+    "title": "Coupon income is under-accrued",
+    "instrument_id": "BD002",
+    "expected_agents": [
+      "accounting",
+      "evidence_critic"
+    ],
+    "required_policy_ids": [
+      "CA-001",
+      "JRN-001"
+    ],
+    "approval_required": false,
+    "expected_resolution": "correct_coupon_accrual",
+    "expected_materiality_bps": 0.0
+  },
+  {
+    "exception_id": "GL-INV-MR-CREDIT-IG",
+    "portfolio_id": "MR-CREDIT-IG",
+    "close_period": "2026-10-31",
+    "category": "general_ledger_break",
+    "severity": "high",
+    "title": "Investment subledger does not reconcile to the general ledger",
+    "instrument_id": null,
+    "expected_agents": [
+      "reconciliation",
+      "accounting",
+      "evidence_critic"
+    ],
+    "required_policy_ids": [
+      "REC-001",
+      "JRN-001",
+      "MAT-001"
+    ],
+    "approval_required": true,
+    "expected_resolution": "identify_and_approve_adjusting_journal",
+    "expected_materiality_bps": 0.0
+  },
+  {
+    "exception_id": "GL-INV-MR-BALANCED",
+    "portfolio_id": "MR-BALANCED",
+    "close_period": "2026-10-31",
+    "category": "general_ledger_break",
+    "severity": "high",
+    "title": "Investment subledger does not reconcile to the general ledger",
+    "instrument_id": null,
+    "expected_agents": [
+      "reconciliation",
+      "accounting",
+      "evidence_critic"
+    ],
+    "required_policy_ids": [
+      "REC-001",
+      "JRN-001",
+      "MAT-001"
+    ],
+    "approval_required": true,
+    "expected_resolution": "identify_and_approve_adjusting_journal",
+    "expected_materiality_bps": 0.0
+  },
+  {
+    "exception_id": "RISK-CONC-MR-ESG-EQ006",
+    "portfolio_id": "MR-ESG",
+    "close_period": "2026-10-31",
+    "category": "concentration_breach",
+    "severity": "high",
+    "title": "Single-name exposure exceeds the 15% ESG mandate limit",
+    "instrument_id": "EQ006",
+    "expected_agents": [
+      "risk_policy",
+      "evidence_critic"
+    ],
+    "required_policy_ids": [
+      "RISK-001",
+      "APP-001"
+    ],
+    "approval_required": true,
+    "expected_resolution": "escalate_to_risk_and_portfolio_manager",
+    "expected_materiality_bps": 22.7
+  },
+  {
+    "exception_id": "RISK-REST-MR-ESG-EQ012",
+    "portfolio_id": "MR-ESG",
+    "close_period": "2026-10-31",
+    "category": "restricted_security",
+    "severity": "critical",
+    "title": "Restricted thermal-coal issuer appears in ESG portfolio",
+    "instrument_id": "EQ012",
+    "expected_agents": [
+      "risk_policy",
+      "evidence_critic"
+    ],
+    "required_policy_ids": [
+      "RISK-001",
+      "APP-001"
+    ],
+    "approval_required": true,
+    "expected_resolution": "freeze_and_compliance_escalation",
+    "expected_materiality_bps": 0.0
+  },
+  {
+    "exception_id": "RISK-REST-MR-CREDIT-HY-BD012",
+    "portfolio_id": "MR-CREDIT-HY",
+    "close_period": "2026-10-31",
+    "category": "restricted_security",
+    "severity": "critical",
+    "title": "Restricted issuer appears in opportunistic credit portfolio",
+    "instrument_id": "BD012",
+    "expected_agents": [
+      "risk_policy",
+      "evidence_critic"
+    ],
+    "required_policy_ids": [
+      "RISK-001",
+      "APP-001"
+    ],
+    "approval_required": true,
+    "expected_resolution": "freeze_and_compliance_escalation",
+    "expected_materiality_bps": 0.0
+  }
+]

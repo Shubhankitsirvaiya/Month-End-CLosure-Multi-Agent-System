@@ -1,0 +1,9 @@
+portfolio_id,name,strategy,base_currency,nav,concentration_limit_pct,close_period,materiality_review_bps,materiality_approval_bps
+MR-EQ-INDIA,Meridian India Equity Fund,India large and mid-cap equity,INR,185000000,40.0,2026-10-31,5.0,10.0
+MR-EQ-GLOBAL,Meridian Global Equity Fund,Developed-market global equity,USD,62000000,35.0,2026-10-31,5.0,10.0
+MR-BOND-GOV,Meridian Sovereign Bond Fund,Government and agency debt,INR,240000000,45.0,2026-10-31,5.0,10.0
+MR-CREDIT-IG,Meridian Investment Grade Credit Fund,Investment-grade corporate bonds,USD,91000000,35.0,2026-10-31,5.0,10.0
+MR-CREDIT-HY,Meridian Opportunistic Credit Fund,High-yield and distressed credit,USD,48000000,35.0,2026-10-31,5.0,10.0
+MR-BALANCED,Meridian Balanced Allocation Fund,Multi-asset balanced allocation,USD,125000000,35.0,2026-10-31,5.0,10.0
+MR-INCOME-MC,Meridian Multi-Currency Income Fund,Global income with currency overlays,USD,76000000,35.0,2026-10-31,5.0,10.0
+MR-ESG,Meridian Sustainable Leaders Fund,ESG-screened global equities,USD,54000000,15.0,2026-10-31,5.0,10.0

@@ -1,0 +1,51 @@
+services:
+  # Independent A2A specialist. It starts first because the main API discovers it.
+  valuation-agent:
+    build:
+      context: .
+      dockerfile: Dockerfile.valuation
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+    ports:
+      - "9000:9000"
+    healthcheck:
+      # Compose waits for this process-level liveness check before starting API.
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:9000/ping')"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      # Compose service names become DNS names on the private project network.
+      VALUATION_AGENT_URL: http://valuation-agent:9000
+      LANGSMITH_TRACING: ${LANGSMITH_TRACING:-false}
+      LANGSMITH_API_KEY: ${LANGSMITH_API_KEY:-}
+    ports:
+      - "8000:8000"
+    volumes:
+      # Named volume preserves run audit files across container replacement.
+      - runtime-data:/app/runtime
+    depends_on:
+      valuation-agent:
+        condition: service_healthy
+
+  ui:
+    build:
+      context: .
+      dockerfile: Dockerfile.ui
+    environment:
+      # The browser sees port 8501, but server-side Streamlit reaches API privately.
+      API_BASE_URL: http://api:8000
+    ports:
+      - "8501:8501"
+    depends_on:
+      - api
+
+volumes:
+  # Docker manages this location; it is not copied into the image or Git.
+  runtime-data:

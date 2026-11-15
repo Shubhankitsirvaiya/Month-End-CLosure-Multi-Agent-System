@@ -1,0 +1,62 @@
+[
+  {
+    "policy_id": "REC-001",
+    "file_name": "REC-001_month_end_reconciliation.md",
+    "title": "Month-End Reconciliation and Close Control Policy",
+    "effective_date": "2026-07-01"
+  },
+  {
+    "policy_id": "SRC-001",
+    "file_name": "SRC-001_source_authority.md",
+    "title": "Financial Source Authority and Evidence Hierarchy",
+    "effective_date": "2026-06-15"
+  },
+  {
+    "policy_id": "VAL-001",
+    "file_name": "VAL-001_pricing_and_fair_value.md",
+    "title": "Pricing, Stale Price, and Fair-Value Review Policy",
+    "effective_date": "2026-08-01"
+  },
+  {
+    "policy_id": "MAT-001",
+    "file_name": "MAT-001_materiality_and_escalation.md",
+    "title": "Materiality and Escalation Standard",
+    "effective_date": "2026-07-01"
+  },
+  {
+    "policy_id": "JRN-001",
+    "file_name": "JRN-001_journal_approval.md",
+    "title": "Journal Preparation and Approval Policy",
+    "effective_date": "2026-05-01"
+  },
+  {
+    "policy_id": "FEE-001",
+    "file_name": "FEE-001_fees_and_accruals.md",
+    "title": "Fees, Expenses, and Accruals Policy",
+    "effective_date": "2026-04-01"
+  },
+  {
+    "policy_id": "CA-001",
+    "file_name": "CA-001_corporate_actions.md",
+    "title": "Corporate Actions and Investment Income Policy",
+    "effective_date": "2026-03-15"
+  },
+  {
+    "policy_id": "RISK-001",
+    "file_name": "RISK-001_portfolio_mandates.md",
+    "title": "Portfolio Mandate, Concentration, and Restricted Holdings Policy",
+    "effective_date": "2026-09-01"
+  },
+  {
+    "policy_id": "APP-001",
+    "file_name": "APP-001_approval_matrix.md",
+    "title": "Month-End Approval Authority Matrix",
+    "effective_date": "2026-07-01"
+  },
+  {
+    "policy_id": "AUD-001",
+    "file_name": "AUD-001_audit_and_retention.md",
+    "title": "Audit Evidence, Traceability, and Retention Policy",
+    "effective_date": "2026-01-01"
+  }
+]

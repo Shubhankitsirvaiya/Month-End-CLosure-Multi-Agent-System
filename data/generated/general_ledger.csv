@@ -1,0 +1,25 @@
+close_period,portfolio_id,account_code,account_name,balance,currency
+2026-10-31,MR-EQ-INDIA,1100,Investments at fair value,172068477.75,INR
+2026-10-31,MR-EQ-INDIA,1200,Cash and cash equivalents,2667246.92,INR
+2026-10-31,MR-EQ-INDIA,2100,Accrued expenses,-186850.0,INR
+2026-10-31,MR-EQ-GLOBAL,1100,Investments at fair value,55791477.31,USD
+2026-10-31,MR-EQ-GLOBAL,1200,Cash and cash equivalents,1026271.76,USD
+2026-10-31,MR-EQ-GLOBAL,2100,Accrued expenses,-62620.0,USD
+2026-10-31,MR-BOND-GOV,1100,Investments at fair value,198218939.0,INR
+2026-10-31,MR-BOND-GOV,1200,Cash and cash equivalents,4552667.11,INR
+2026-10-31,MR-BOND-GOV,2100,Accrued expenses,-242400.0,INR
+2026-10-31,MR-CREDIT-IG,1100,Investments at fair value,80361122.0,USD
+2026-10-31,MR-CREDIT-IG,1200,Cash and cash equivalents,1473240.5,USD
+2026-10-31,MR-CREDIT-IG,2100,Accrued expenses,-96278.0,USD
+2026-10-31,MR-CREDIT-HY,1100,Investments at fair value,41085586.0,USD
+2026-10-31,MR-CREDIT-HY,1200,Cash and cash equivalents,302187.25,USD
+2026-10-31,MR-CREDIT-HY,2100,Accrued expenses,-48480.0,USD
+2026-10-31,MR-BALANCED,1100,Investments at fair value,116328588.59,USD
+2026-10-31,MR-BALANCED,1200,Cash and cash equivalents,5094756.59,USD
+2026-10-31,MR-BALANCED,2100,Accrued expenses,-81250.0,USD
+2026-10-31,MR-INCOME-MC,1100,Investments at fair value,69622571.0,USD
+2026-10-31,MR-INCOME-MC,1200,Cash and cash equivalents,2981345.3,USD
+2026-10-31,MR-INCOME-MC,2100,Accrued expenses,-76760.0,USD
+2026-10-31,MR-ESG,1100,Investments at fair value,49809485.76,USD
+2026-10-31,MR-ESG,1200,Cash and cash equivalents,724564.35,USD
+2026-10-31,MR-ESG,2100,Accrued expenses,-48060.0,USD

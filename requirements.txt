@@ -1,0 +1,31 @@
+# API server and operator UI
+fastapi
+uvicorn[standard]
+streamlit
+streamlit-autorefresh
+# Agent graphs, model adapters, and OpenAI client
+langgraph
+langchain-core
+langchain-openai
+openai
+# Finance tables, numerical processing, validation, and environment settings
+pandas
+numpy
+pydantic
+pydantic-settings
+python-dotenv
+# Async A2A transport and synchronous Streamlit HTTP client
+httpx
+requests
+# Local policy retrieval and optional persistent embedding index
+scikit-learn
+chromadb
+# Reliability, visualization, uploads, and notebook generation
+tenacity
+plotly
+python-multipart
+nbformat
+# Automated testing
+pytest
+pytest-asyncio
+

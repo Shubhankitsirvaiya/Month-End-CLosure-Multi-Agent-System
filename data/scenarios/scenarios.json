@@ -1,0 +1,57 @@
+[
+  {
+    "scenario_id": "multi_issue_close",
+    "name": "Enterprise month-end close",
+    "description": "All eight portfolios with pricing, reconciliation, accounting, policy, and evidence exceptions.",
+    "portfolio_id": null,
+    "expected_focus": [
+      "cross-portfolio prioritization",
+      "parallel specialists",
+      "multiple approvals"
+    ]
+  },
+  {
+    "scenario_id": "material_pricing_case",
+    "name": "Material high-yield pricing case",
+    "description": "Stale and conflicting prices in the opportunistic credit portfolio.",
+    "portfolio_id": "MR-CREDIT-HY",
+    "expected_focus": [
+      "A2A valuation agent",
+      "materiality",
+      "human approval"
+    ]
+  },
+  {
+    "scenario_id": "accounting_close_pressure",
+    "name": "Balanced fund accounting pressure",
+    "description": "Cash, fee, price, and ledger exceptions near the close deadline.",
+    "portfolio_id": "MR-BALANCED",
+    "expected_focus": [
+      "accounting",
+      "reconciliation",
+      "approval"
+    ]
+  },
+  {
+    "scenario_id": "esg_control_breach",
+    "name": "ESG mandate breach",
+    "description": "Concentration and restricted-security issues requiring risk escalation.",
+    "portfolio_id": "MR-ESG",
+    "expected_focus": [
+      "policy RAG",
+      "risk specialist",
+      "zero-tolerance controls"
+    ]
+  },
+  {
+    "scenario_id": "multi_currency_income",
+    "name": "Multi-currency income review",
+    "description": "FX cash, coupon, custody, and stale-price issues.",
+    "portfolio_id": "MR-INCOME-MC",
+    "expected_focus": [
+      "income accrual",
+      "currency cash",
+      "evidence completeness"
+    ]
+  }
+]

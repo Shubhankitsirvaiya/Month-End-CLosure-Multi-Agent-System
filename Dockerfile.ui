@@ -1,0 +1,12 @@
+FROM python:3.12-slim
+ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 PIP_NO_CACHE_DIR=1
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+# UI receives no finance datasets; it must consume FastAPI like any external client.
+COPY app app
+RUN useradd --create-home appuser && chown -R appuser:appuser /app
+USER appuser
+EXPOSE 8501
+# Binding 0.0.0.0 is required so the host can reach Streamlit through Docker.
+CMD ["streamlit", "run", "app/ui/streamlit_app.py", "--server.address", "0.0.0.0", "--server.port", "8501"]

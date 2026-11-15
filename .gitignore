@@ -1,0 +1,51 @@
+# Secrets and local configuration
+.env
+*.pem
+*.key
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.deepeval/
+
+# Notebook-generated cache
+.ipynb_checkpoints/
+
+# Runtime state produced by the API and agents
+runtime/
+logs/
+uploads/
+*.db
+*.sqlite
+*.sqlite3
+
+# Local vector stores
+chroma_db/
+.chroma/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated temporary files
+tmp/
+temp/
+*.tmp
+.tool_check
+
+# Presentation artifacts are maintained outside the code repository
+slides/
+
+# One-time notebook generation helpers; the generated notebook is committed
+scripts/build_notebook.py
+scripts/build_backend_notebook.py
+scripts/build_backend_notebook_v2.py
+scripts/build_backend_notebook_concise.py
+

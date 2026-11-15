@@ -1,0 +1,21 @@
+{
+  "seed": 16033,
+  "close_period": "2026-10-31",
+  "portfolio_count": 8,
+  "portfolio_ids": [
+    "MR-EQ-INDIA",
+    "MR-EQ-GLOBAL",
+    "MR-BOND-GOV",
+    "MR-CREDIT-IG",
+    "MR-CREDIT-HY",
+    "MR-BALANCED",
+    "MR-INCOME-MC",
+    "MR-ESG"
+  ],
+  "security_count": 26,
+  "internal_position_rows": 39,
+  "custodian_position_rows": 37,
+  "transaction_rows": 32,
+  "injected_exception_count": 26,
+  "purpose": "Synthetic month-end close data for agentic workflow and evaluation. Not investment advice."
+}

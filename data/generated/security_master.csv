@@ -1,0 +1,27 @@
+security_id,security_name,asset_class,currency,sector,coupon_rate,maturity_date,credit_rating,reference_price,restricted
+EQ001,Asterion Technologies,Equity,INR,Technology,,,,1840.0,false
+EQ002,Bharat Consumer Products,Equity,INR,Consumer,,,,712.0,false
+EQ003,Crescent Financial Services,Equity,INR,Financials,,,,426.0,false
+EQ004,Delta Infrastructure,Equity,INR,Industrials,,,,338.0,false
+EQ005,Eastern Health Sciences,Equity,INR,Healthcare,,,,1295.0,false
+EQ006,Fjord Semiconductor,Equity,USD,Technology,,,,142.5,false
+EQ007,Greenhaven Utilities,Equity,USD,Utilities,,,,58.2,false
+EQ008,Harbor Retail Group,Equity,USD,Consumer,,,,91.4,false
+EQ009,Ionis Medical Devices,Equity,USD,Healthcare,,,,117.3,false
+EQ010,Juniper Cloud Systems,Equity,USD,Technology,,,,204.8,false
+EQ011,Kestrel Renewable Energy,Equity,USD,Energy,,,,47.6,false
+EQ012,Lattice Thermal Coal,Equity,USD,Energy,,,,36.9,true
+EQ013,Meridian Diversified Holdings,Equity,USD,Multi-Asset,,,,83.7,false
+BD001,Republic of India 7.18% 2033,Bond,INR,Government,7.18,2033-08-14,AAA,101.2,false
+BD002,National Infrastructure 7.65% 2031,Bond,INR,Agency,7.65,2031-03-20,AAA,99.4,false
+BD003,State Development Loan 7.42% 2034,Bond,INR,Government,7.42,2034-06-10,AA+,98.8,false
+BD004,Republic Treasury 6.91% 2029,Bond,INR,Government,6.91,2029-11-02,AAA,100.5,false
+BD005,Arbor Telecom 4.25% 2030,Bond,USD,Corporate,4.25,2030-05-18,A,97.6,false
+BD006,Bluewater Logistics 5.10% 2032,Bond,USD,Corporate,5.1,2032-09-12,BBB+,94.3,false
+BD007,Cobalt Healthcare 4.80% 2028,Bond,USD,Corporate,4.8,2028-01-22,A-,102.1,false
+BD008,Driftwood Packaging 6.90% 2031,Bond,USD,High Yield,6.9,2031-07-15,BB,91.8,false
+BD009,Everpeak Mining 8.25% 2029,Bond,USD,High Yield,8.25,2029-12-01,B+,84.5,false
+BD010,Frontier Aviation 9.10% 2030,Bond,USD,Distressed,9.1,2030-04-19,B-,78.9,false
+BD011,Granite Property Finance 7.40% 2028,Bond,EUR,High Yield,7.4,2028-10-05,BB-,96.7,false
+BD012,Helios Sanctioned Holdings 10.0% 2027,Bond,USD,Restricted,10.0,2027-02-28,CCC,66.2,true
+BD013,Ironclad Finance 4.70% 2031,Bond,USD,Corporate,4.7,2031-11-17,A-,98.1,false

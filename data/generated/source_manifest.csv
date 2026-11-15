@@ -1,0 +1,11 @@
+source_name,file_name,expected_frequency,authoritative_for,close_period
+Portfolio Accounting,internal_positions.csv,monthly,internal positions and book values,2026-10-31
+Global Custodian,custodian_positions.csv,monthly,external positions,2026-10-31
+Treasury Ledger,internal_cash.csv,monthly,internal cash,2026-10-31
+Global Custodian,custodian_cash.csv,monthly,external cash,2026-10-31
+Vendor A,vendor_a_prices.csv,monthly,primary closing prices,2026-10-31
+Vendor B,vendor_b_prices.csv,monthly,independent price challenge,2026-10-31
+General Ledger,general_ledger.csv,monthly,official accounting balances,2026-10-31
+Expense Platform,fee_accruals.csv,monthly,fees and accruals,2026-10-31
+Trading Platform,transactions.csv,monthly,executed trades,2026-10-31
+Asset Servicing,corporate_actions.csv,monthly,income and corporate actions,2026-10-31
